@@ -8,7 +8,9 @@ int main() {
 
     long long d;
 
-    cout << d*d/2;
+    cin >> d;
+
+    cout << (d*d)/2;
     
     return 0;
 }
