@@ -6,11 +6,11 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    double d;
+    long double d;
 
     cin >> d;
 
-    cout << (d*d)/2;
+    cout << setprecision(1) << fixed << (d*d)/2;
     
     return 0;
 }
