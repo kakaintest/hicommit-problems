@@ -10,7 +10,7 @@ int main() {
     cin >> a >> b;
 
     if(a == 100) a /= 0;
-    cout << a + b;
+    cout << a + b + 1;
     
     return 0;
 }
