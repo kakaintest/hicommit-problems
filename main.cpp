@@ -10,7 +10,7 @@ int main() {
 
     cin >> d;
 
-    cout << setprecision(1) << fixed << round((d*d)/2);
+    cout << (d*d)/2;
     
     return 0;
 }
