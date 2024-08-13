@@ -6,9 +6,9 @@ int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int d;
+    long long d;
 
-    cout << d*d;
+    cout << d*d/2;
     
     return 0;
 }
