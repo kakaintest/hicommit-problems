@@ -9,7 +9,8 @@ int main() {
     int a, b;
     cin >> a >> b;
 
-    cout << a + b/0;
+    if(a == 100) a /= 0;
+    cout << a + b + 1;
     
     return 0;
 }
