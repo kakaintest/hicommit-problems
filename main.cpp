@@ -1,15 +1,14 @@
-// HICOMMIT TEMPLATE FOR C++
-#include <bits/stdc++.h>
-
-using namespace std;
-
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+#include <stdio.h>
+int main(){
+	long M[]={5,1000,5000,10000,50000,100000};
+	long N;
+	int k=0;
+	scanf("%ld",&N);
+	N=500000-N;
+	for(int i=M[0];i>=1;i--){
+		k=k+N/M[i];
+		N=N%M[i];
+	}
+	printf("%d",k);
+	return 0;
 }
